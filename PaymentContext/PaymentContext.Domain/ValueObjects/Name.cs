@@ -22,6 +22,7 @@ namespace PaymentContext.Domain.ValueObjects
 
         public void ChangeFirstName(string firsName) => FirstName = firsName;
         public void ChangeLastName(string lastname) => LastName = lastname;
+
         public override string ToString()
         {
             return ($"{FirstName} {LastName}");
